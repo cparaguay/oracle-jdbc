@@ -1,0 +1,4 @@
+  
+install:
+- FILE="-Dfile=ojdbc6-11.2.0.3.0.jar"
+- mvn install:install-file $FILE -DgroupId=com.github.cparaguay -DartifactId=repo -Dversion=1.0 -Dpackaging=jar -DgeneratePom=true
